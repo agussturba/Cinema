@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:  "info"
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: "jdbc:h2:mem:devBD"
+    username: sa
+    password:
